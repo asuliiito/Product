@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./product.css');
+@import url('./manage.css');
+@import url('./customer.css');
+@import url('./collab.css');
+@import url('./quick.css');
+@import url('./price.css');
+@import url('footer.css');
+@import url('join.css');
+@import url('clients.css');
+@import url('strategy.css');
+@import url('./media.css');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}

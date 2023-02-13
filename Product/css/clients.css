@@ -1,0 +1,125 @@
+.clients {
+    margin-top: 150px;
+}
+
+.clients__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+}
+
+.clients__sub-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #22343D;
+    margin-top: 8px;
+    margin-bottom: 50px;
+
+}
+
+.clients__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients__content {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.clients__card {
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    width: 33%;
+    padding: 28px 26px 24px 26px;
+}
+
+.clients__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #737373;
+    width: 275px;
+}
+
+.clients__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.clients__ava-right h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #02897A;
+}
+
+.clients__ava-right h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #252B42;
+}
+
+.clients__ava {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-top: 16px;
+}
+
+.clients__ava-right {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:1250px) {
+    .clients__content {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:750px) {
+    .clients__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clients__text {
+        width: 200px;
+    }
+}
+
+@media(max-width:610px) {
+    .clients__text {
+        max-width: 150px;
+    }
+    .clients__wrap{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width:440px) {
+    .clients__card{
+        width: 66%;
+    }
+}
